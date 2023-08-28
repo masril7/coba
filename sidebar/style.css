@@ -13,6 +13,11 @@
     --hitam: #07090f;
 }
 
+body {
+    min-width: 320px;
+    max-width: 430px;
+    height: 100vh;
+}
 
 /* style sidebar */
 .sidebar {
@@ -54,4 +59,8 @@ nav {
 /* content hp */
 .container-hp {
     margin: auto;
+    min-width: 320px;
+    max-width: 430px;
+    height: 100vh;
+    background-color: var(--hitam);
 }
