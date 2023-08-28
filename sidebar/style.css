@@ -54,6 +54,11 @@ nav {
     flex-shrink: 0; 
 }
 
+.container-nav a {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+}
+
 .nav-item a, a {
     text-decoration: none;
     color: var(--hitam);
@@ -82,7 +87,6 @@ nav {
     background-color: var(--p1);
     /* overflow: scroll; */
     padding: 30px 20px;
-    /* background-color: var(--c1); */
 }
 
 .container-head {
@@ -106,11 +110,26 @@ nav {
     height: 30px;
 }
 
-.container-head .container-cari {
+.container-cari {
     width: 100%;
     display: flex;
     padding: 12px 20px;
     gap: 0;
+    align-items: center;
+    background-color: var(--p2);
+    border-radius: 12px;
+}
+
+.container-cari button {
+    border: none;
+    background-color: transparent;
+}
+
+.container-cari input {
+    display: flex;
+    width: 100%;
+    padding: 12px 20px;
+    justify-content: space-between;
     align-items: center;
 }
 
