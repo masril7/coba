@@ -43,7 +43,7 @@ nav {
 .container-nav {
     margin: 60px 20px;
     width: 100vh;
-    height: 100vh;
+    height: 100%;
 }
 
 .nav-item a, a {
@@ -62,5 +62,5 @@ nav {
     min-width: 320px;
     max-width: 430px;
     height: 100vh;
-    background-color: var(--hitam);
+    background-color: var(--c3);
 }
